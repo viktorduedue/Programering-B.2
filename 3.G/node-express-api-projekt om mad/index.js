@@ -19,7 +19,7 @@ const weekDays = {
 }
 //start en webserver på port 3000
 app.get('/*', (req, res)=>{
-    console.log('servern fik besøg i roden')
+    console.log('servern fik besøg i roden - det er ikke seksuelt ment')
     if(req.params[0]){
         console.log('wow nogen vil bruge vores api:' + req.params[0])
         if(weekDays[req.params[0]]){
