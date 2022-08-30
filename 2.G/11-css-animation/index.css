@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+
+}
+
+main{
+    height: 100vh;  
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem;
+    gap:.1rem
+}
+.card{
+    height: 6rem;
+    width: 100%;
+    background:linear-gradient(blue, red);    
+}
+
+
+@keyframes anim {
+    from{
+        transform: translateX(200px);
+    }
+
+    to{
+        transform:translateX(0px);
+    }
+
+}

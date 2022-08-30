@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+
+}
+
+body{
+    background: darkslategray;
+}
+
+header{
+    display: grid;
+    place-items: center;
+    height: 12vh;
+    background: black;
+    color:white;
+    text-shadow: 0 0 12px gray;
+}
+
+main{
+    display: grid;
+    place-items: center;
+    height: 80vh;
+}
+
+h1{ 
+    margin: 0;
+    padding: 0;
+}
+
+#activity{
+    width: 80vw;
+    height: 60vh;
+    border: 1px solid white;
+    background: lightgray;
+    border-radius: 1rem;
+    box-shadow: 0 0 12px 6px gray;
+    padding: 4rem;
+}
+
+footer{
+    height: 8vh;
+    display: grid ;
+    place-items: center;
+}
