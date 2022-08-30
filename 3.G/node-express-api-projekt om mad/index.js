@@ -10,7 +10,7 @@ const port = 3434
 // vi laver en meget simpel database
 const weekDays = {
     'Pasta':'Smager skide godt, og virker næsten til alt',
-    'Bruger':'God til både morgen middag og aften, er bedere end fisse',
+    'Burger':'God til både morgen middag og aften, er bedere end fisse',
     'Pizza':'Kommer i så meget forsklligt plus kan redde en by tur og en druk aften',
     'Pomfritter':'Den perfekte snack med alt slags topping og dybelse',
     'Bøf':'Til det fine bord, eller hjemme hos Jørgen Leth den her skabning af død ko og enten grill eller pande er perfket, og virker dejlig sammen med sovs', 
