@@ -1,3 +1,4 @@
+
 <script>
 	import Menuitem from './components/Menuitem.svelte'
 	import Frontpage from './components/Frontpage.svelte'
@@ -39,7 +40,7 @@
 	}
 	header{
 		display:grid;
-		height:20vh;
+		height:10vh;
 		grid-auto-flow:column;
 		place-items:center;
 		background:black;

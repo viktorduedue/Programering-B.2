@@ -70,6 +70,7 @@
         height: 100vh;
         padding:.8rem;
         overflow: scroll;
+        position: relative;
     }
     .character{
         display:grid;
@@ -81,19 +82,6 @@
         border-radius:5px;
         padding:1rem;
         transition:.1s ease-in-out all;
+        vertical-align: text-top;
     }
-    .cocktail h2{
-        text-align:center;
-        font-size:.5rem;
-    }
-    .cocktail img{
-        width:100px;
-        height:100px;
-        object-fit:cover;
-        border-radius:50%;
-    }
-    .cocktail:hover{
-        transform:scale(1.1);
-    }
-    
 </style>

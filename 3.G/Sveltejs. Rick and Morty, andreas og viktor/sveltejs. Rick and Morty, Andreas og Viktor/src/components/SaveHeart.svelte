@@ -27,7 +27,7 @@ const remFav = () => {
 
 </script>
 
-<main>
+<main >
     {#if active}
         <img on:click={remFav} src="./assets/red-heart-icon.svg" alt="">
     {:else}
@@ -40,8 +40,14 @@ const remFav = () => {
         position:absolute;
         bottom:2rem;
         right:2rem;
-        width:4rem;
-        height:4rem;
+        width:5rem;
+        height:5rem;
+        background-color: rgba(255, 255, 255, 0.5);
+        display: grid;
+        place-items: center;
+        border-radius: 50%;
+        cursor: pointer;
     }
 
+    
 </style>
